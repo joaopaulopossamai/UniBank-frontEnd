@@ -1,0 +1,516 @@
+body {
+  background: #eeeeee !important;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  color: #212121 !important;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+#tv-ideas-stream iframe {
+  margin-top: -65px;
+}
+
+.HomePage {
+  font-family: 'Montserrat';
+}
+
+.HomePage .button {
+  background: #022b61;
+  border-radius: 20px;
+  padding: 6px 20px;
+  color: #fff;
+}
+
+.HomePage .button:hover {
+  background: #1d98e8;
+}
+
+.HomePage .button span {
+  text-transform: none;
+}
+
+.HomePage .form-control {
+  font-family: 'Montserrat';
+  background: #fff;
+  color: #666;
+  font-weight: 500;
+  text-transform: none !important;
+}
+
+.HomePage .form-control::placeholder {
+  color: #aaa;
+}
+
+.HomePage .form-control:focus {
+  border: 1px solid #aaa;
+  box-shadow: 0 0 0 !important;
+}
+
+.HomePage .account .form-control {
+  width: 95%;
+}
+
+.header {
+  padding: 20px 0 0;
+  background-size: 140% !important;
+  background-repeat: no-repeat !important;
+  background-position: top left;
+}
+
+.header .logo img {
+  height: 45px;
+}
+
+.header .menu {
+  text-align: right;
+}
+
+.header .menu ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+.header .menu ul li {
+  margin: 0 10px;
+}
+
+.header .menu ul li a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.85em;
+}
+
+.header .menu ul li svg {
+  font-size: 0.85em;
+  position: relative;
+  top: 2px;
+}
+
+.header .menu ul li.feature a {
+  background: #666666;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.header .banner {
+  padding-bottom: 6%;
+}
+
+.header .banner h1 {
+  font-size: 3em;
+  margin: 10% 0 2%;
+  font-weight: 700;
+}
+
+.header .banner h1 span {
+  color: #1d98e8;
+}
+
+.header .banner p {
+  margin-bottom: 0%;
+}
+
+.header .banner .traderman {
+  width: 110%;
+  margin-bottom: -58px;
+  z-index: 9999;
+  position: relative;
+  pointer-events: none;
+}
+
+.header .account {
+  background: #cdcbcb;
+  padding: 10px;
+  width: 100%;
+}
+
+.plans {
+  color: #666666;
+  padding: 5% 0;
+}
+
+.plans .info {
+  padding-right: 5%;
+}
+
+.plans .info h1 {
+  font-weight: 900;
+}
+
+.plans .info h1 span {
+  color: #022b61;
+}
+
+.plans .info p {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.plans .plan {
+  padding: 1%;
+}
+
+.plans .plan .content {
+  padding: 8%;
+  background: linear-gradient(0deg, #f4f4f4 60%, #eeeeee);
+  border-radius: 20px;
+}
+
+.plans .plan h1 {
+  color: #022b61;
+  font-size: 2em;
+  font-weight: 800;
+  text-align: center;
+}
+
+.plans .plan h1 span {
+  color: #666666;
+  font-size: 0.7em;
+  font-weight: 100;
+}
+
+.plans .plan h2 {
+  font-size: 1em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.plans .plan .details {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.plans .plan .details ul {
+  padding: 0;
+  list-style: none;
+  min-height: 180px;
+}
+
+.plans .plan .details ul li {
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.plans .plan .content .button {
+  width: 70%;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 auto;
+  background: #666 !important;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.plans .plan .content .button:hover {
+  width: 70%;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 auto;
+  background: #022b61 !important;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.whatis {
+  color: #666666;
+  padding: 5% 0;
+  background: #ffffff;
+}
+
+.whatis .image {
+  text-align: left;
+}
+
+.whatis .image img {
+  width: 80%;
+}
+
+.whatis .text {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.whatis .text h1 {
+  color: #666666;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.whatis .text h1 span {
+  color: #022b61;
+}
+
+.whatis .text p {
+  font-size: 0.8em;
+}
+
+.whatis .title p {
+  font-size: 1em;
+}
+
+.whatis .text .desc {
+  font-size: 0.8em;
+  color: #666666;
+}
+
+.whatis .accordion {
+  box-shadow: 0 0 0 !important;
+}
+
+.register {
+  padding: 5% 0;
+}
+
+.register .title {
+  text-align: center;
+}
+
+.register .title h1 {
+  font-size: 2.4em;
+  font-weight: 800;
+}
+
+.register .title h2 {
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.register .title h2 span {
+  color: #1d98e8;
+}
+
+.register .form-control {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.register .terms {
+  opacity: 0.5;
+  font-size: 0.8em;
+}
+
+.register .termsactive {
+  opacity: 1;
+  font-size: 0.9em;
+}
+
+.register svg {
+  fill: #fff;
+}
+
+.register .button {
+  background: #1d98e8;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: none;
+  padding: 5px 30px;
+}
+
+.register .button:hover {
+  background: #40a7ec;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: none;
+  padding: 5px 30px;
+}
+
+.register .terms {
+  font-size: 0.9em;
+}
+
+.featured {
+  padding: 5% 0;
+  text-align: center;
+}
+
+.featured .item {
+  padding: 0 2%;
+}
+
+.featured h1 {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 10px 0 20px 0;
+}
+
+.featured p {
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.faqs {
+  padding: 5% 0;
+  background: linear-gradient(0deg, white 40%, white 41%, #313131 41%);
+}
+
+.faqs .title {
+  text-align: center;
+}
+
+.faqs .title h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+
+.faqs .accordion {
+  padding: 10px;
+  border-radius: 25px;
+  background: #fff;
+  z-index: 9;
+}
+
+.faqs .accordionBoxShadow {
+  padding: 10px;
+  border-radius: 25px;
+  background: #fff;
+  box-shadow: 1px 1px 20px #bbb;
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin-top: -250px;
+  z-index: 0;
+}
+
+.faqs .accordion .readmore {
+  margin: 3% 0;
+  font-size: 1em;
+  color: #666;
+  text-align: center;
+}
+
+.faqs .accordion .readmore .button {
+  padding: 8px 20px;
+  background: #022b61;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.faqs .accordion .readmore .button:hover {
+  background: #1d98e8;
+}
+
+.faqs .itemAccordion {
+  margin: 0 !important;
+}
+
+.faqs .titleAccordion {
+  border-top: 1px solid #ddd !important;
+}
+
+.faqs .MuiPaper-elevation1 {
+  box-shadow: 0 0 0 !important;
+}
+
+.faqs .title .Mui-expanded > p,
+.faqs .titleAccordion .Mui-expanded > p {
+  color: #022b61;
+}
+
+.faqs .desc {
+  color: #666;
+  font-size: 0.8em;
+}
+
+.footer {
+  color: #666;
+  padding: 2% 0;
+}
+
+.footer .logo {
+  padding: 0 0 5% 0;
+}
+
+.footer .copyright {
+  font-size: 0.8em;
+}
+
+.footer .menu {
+  text-align: left;
+}
+
+.footer .menu .item ul {
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+
+.footer .menu .item ul li {
+  margin: 0;
+}
+
+.footer .menu .item h1 {
+  font-size: 1em;
+  font-weight: 700;
+  color: #022b61;
+}
+
+.footer .menu .item h1:after {
+  content: ' ';
+  display: block;
+  width: 20%;
+  height: 3px;
+  background: #022b61;
+  margin: 5px 0 10px 0;
+}
+
+.footer .menu .item ul li .link {
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #666;
+}
+
+.footer .menu .item ul li .link:hover {
+  color: #022b61;
+}
+
+.footer .menu .item.socials ul {
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+}
+
+.footer .menu .item.socials ul li {
+  font-size: 2em;
+  margin-right: 5px;
+}
+
+.footer .menu .item.contact ul li {
+  font-size: 0.65em;
+}
+
+.MuiPopover-root .MuiListItem-root img {
+  display: none;
+}
+
+.MuiPopover-root .MuiListItem-root span {
+  margin-left: 0.5rem;
+}
